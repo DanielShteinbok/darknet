@@ -1,3 +1,11 @@
+# !!MODIFIED!!
+This is an even more fucked-up version of Darknet, that will probably not work on your computer
+unless you are either me or Josh (even then, hopefully). Here's what I changed:
+* `Makefile` is patched with [tiagoshibata's patch](https://gist.github.com/tiagoshibata/f322466e8b31c14a4b98d53bf74e4f6c)
+to work with opencv4, and modified to look for opencv. It will die if you don't have opencv.
+* `python/darknet.py` and `examples/detect.py` were modified with small hacks that made them
+not die right away with python3, but I also sprinkled in a bunch of my own absolute paths so GLHF
+
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
 # Darknet #
