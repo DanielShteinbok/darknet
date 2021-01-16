@@ -5,6 +5,8 @@ unless you are either me or Josh (even then, hopefully). Here's what I changed:
 to work with opencv4, and modified to look for opencv. It will die if you don't have opencv.
 * `python/darknet.py` and `examples/detect.py` were modified with small hacks that made them
 not die right away with python3, but I also sprinkled in a bunch of my own absolute paths so GLHF
+* Also, I set the thing to use `yolov3` with pretrained weights, as you can see in `examples/detect.py`.
+you will probably want to `wget` that... 
 
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
