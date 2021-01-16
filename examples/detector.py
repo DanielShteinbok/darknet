@@ -12,8 +12,9 @@ import pdb
 dn.set_gpu(0)
 net = dn.load_net(b"/home/daniel/htn2020/video_summarizer/darknet/cfg/yolov3.cfg", b"/home/daniel/htn2020/video_summarizer/darknet/yolov3.weights", 0)
 meta = dn.load_meta(b"/home/daniel/htn2020/video_summarizer/darknet/cfg/coco.data")
-r = dn.detect(net, meta, b"/home/daniel/htn2020/video_summarizer/darknet/data/bedroom.jpg")
-print(r)
+# does not exist
+#r = dn.detect(net, meta, b"/home/daniel/htn2020/video_summarizer/darknet/data/bedroom.jpg")
+#print(r)
 
 # And then down here you could detect a lot more images like:
 r = dn.detect(net, meta, b"/home/daniel/htn2020/video_summarizer/darknet/data/eagle.jpg")
